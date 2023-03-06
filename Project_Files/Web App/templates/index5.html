@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Compatible to mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>AI on Edge: Efficient Visual Question Answering</title>
+  <style>
+    h1 {text-align: center;}
+    h3 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+  </style>
+</head>
+<body style="background: #00eeff;">
+ <div class="login">
+	<h1 style="color:rgb(0, 0, 0);">Visual Question Answering</h1>
+
+    <!-- <img src = "file:/IIT Madras - College related files/1-ANALYTICS CLUB FILES/AI-on-Edge-PROJECT FILES/Web app/templates/testimage2.jpg" /> -->
+    <br>
+    <br>
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" style="width: 500px;" name="Question" placeholder="Enter your question" required="required" /><br>
+
+        <p><button type="submit" class="btn btn-primary btn-block btn-large">Predict the answer</button></p>
+    </form>
+
+   <br>
+   <h3 style="color:rgb(0, 0, 0);">
+   {{ prediction_text }} </h3>
+
+ </div>
+
+</body>
+</html>
