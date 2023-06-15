@@ -1,6 +1,7 @@
 # AI-On-Edge
----
+
 Personal repository for the project
+---
 
 Weights for the ViLT-VQA can be found here:
 
