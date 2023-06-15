@@ -1,4 +1,4 @@
-# AI-On-Edge
+# AI-On-Edge-VQA
 
 Personal repository for the project
 ---
